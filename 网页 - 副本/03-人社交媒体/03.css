@@ -1,0 +1,86 @@
+/* 清除格式 */
+.warpper{
+    margin:0 auto;
+    width:1200px;
+}
+/* 导航栏 */
+#dhl{
+    /* 宽高背景 */
+    height: 60px;
+    background-color: #799078;
+    /* flex布局 */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* 字体 */
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 方正舒体;
+    color:#3b3f32;
+}
+/* 导航栏标题 */
+#dhl .span1{
+    font-size: 40px;
+}
+/* 主界面 */
+#zjm{
+    display: flex;
+    justify-content: center;
+    /* 宽高背景 */
+    width: 1370px;
+    background-image:url(../生生背景图.png);
+    background-size: 100%;
+}
+#zjmnr{
+    width: 1000px;
+    background-color: #e5ded3;
+    margin: 30px 40px;
+    padding: 20px 30px 10px;
+    box-shadow: 3px 3px 5px 5px #3e4d3e;
+}
+#zjmbt{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-around;
+    /* 字体 */
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 方正舒体;
+    color: #3e4d3e;
+}
+#zjmjz{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-around;
+    /* 字体 */
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 方正舒体;
+    color: #3e4d3e;
+}
+#zjmxx{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* 宽高边框 */
+    width: 700px;
+    height: 70px;
+    /* border: 1px solid #3b3f32;
+    background-color: #e5ded3;
+    box-shadow: 2px 2px 3px 3px #c3c7c2; */
+    margin: 15px auto;
+    /* 字体 */
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 华文新魏;
+    color: #3b3f32;
+}
+#nrtp{
+    /* flex布局 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* 边距 */
+    margin: 30px auto;
+}

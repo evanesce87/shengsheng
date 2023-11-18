@@ -1,0 +1,137 @@
+/* 清除格式 */
+.warpper{
+    margin:0 auto;
+    width:1200px;
+}
+/* 导航栏 */
+#dhl{
+    /* 宽高背景 */
+    height: 60px;
+    background-color: #799078;
+    /* flex布局 */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* 字体 */
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 方正舒体;
+    color:#3b3f32;
+}
+/* 导航栏标题 */
+#dhl .span1{
+    font-size: 40px;
+}
+
+/* 主界面 */
+#zjm{
+    display: flex;
+    justify-content: center;
+    /* align-items: self-start; */
+    /* 宽高背景 */
+    width: 1370px;
+    /* height: 1900px; */
+    background-image:url(../生生背景图.png);
+    background-size: 100%;
+}
+#zjmnr{
+    width: 1000px;
+    background-color: #e5ded3;
+    margin: 30px 40px;
+    padding: 30px 30px 10px;
+    box-shadow: 3px 3px 5px 5px #3e4d3e;
+}
+#zjmbt{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-around;
+    /* 字体 */
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 方正舒体;
+    color: #3e4d3e;
+}
+#zjmjz{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-around;
+    /* 字体 */
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 方正舒体;
+    color: #3e4d3e;
+}
+/* 人类世界 */
+#zjmrl{
+    /* 边框 */
+    margin: 60px auto;
+    border-radius: 30px;
+    border: #3e4d3e;
+    box-shadow: 3px 3px 5px 5px #3b3f32;
+    padding: 20px;
+}
+#rlsj{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-around;
+     /* 字体 */
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 华文新魏;
+    color: #3b3f32;
+}
+#rlxx{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-evenly;
+     /* 字体 */
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 华文新魏;
+    color: #3b3f32;
+}
+/* 宠物家园 */
+#zjmcw{
+    /* 边框 */
+    margin: 60px auto;
+    border-radius: 30px;
+    border: #3e4d3e;
+    box-shadow: 3px 3px 5px 5px #3b3f32;
+    padding: 20px;
+}
+#cwjy{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-around;
+     /* 字体 */
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 华文新魏;
+    color: #3b3f32;
+}
+#cwxx{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-evenly;
+     /* 字体 */
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 华文新魏;
+    color: #3b3f32;
+}
+/* #1{
+    height: 70px;
+    display:flex;
+    align-items: center;
+} */
+/* 联系我们 */
+#lxwm{
+    /* flex布局 */
+    display: flex;
+    justify-content: center;
+    /* 字体 */
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 华文新魏;
+    color: #3b3f32;
+}
